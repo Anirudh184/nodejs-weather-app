@@ -32,4 +32,27 @@ footer{
     padding: 10px;
     border-top: 1px solid #888888;
     color: #888888;
+}  
+
+input {
+    border: 1px solid black;
+    height: 20px;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    background-color: green; /* Green */
+    color: white;
+    border: 1px solid black; 
+    padding: 7px 16px;
+    text-align: center;
+    margin: 4px 2px;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
 }

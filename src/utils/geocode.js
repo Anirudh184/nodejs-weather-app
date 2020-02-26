@@ -7,7 +7,7 @@ const geocode = (address, callback) => {
     request({url: url, json: true}, (error, response) => {
         if(error) {
             callback('Something went wrong geocode service unavailable.');
-        } else if(!response.body.features.length) {
+        } else if(!response.body.features) {
             callback('Search Term not available. Try again with another seach term.');
         } else {
             callback(undefined, {

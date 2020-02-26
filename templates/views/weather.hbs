@@ -17,9 +17,16 @@
         <form action="" id = "locationForm">
 
             <input type="text" id = 'location' placeholder="location">
-            <input type="submit" value="Get Weather">
+            <button>Get Weather</button>
         </form>
     </div>
+
+    <p id = "error"></p>
+    <div id="result">
+        <p class = "location"></p>
+        <p class="summary"></p>
+    </div>
+
     {{>footer}}
     <script src="/js/app.js"></script>
 </body>
