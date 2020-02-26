@@ -49,8 +49,7 @@ app.get('/get-weather', (req, res)=> {
 
 app.get('/weather', (req, res)=> {
     res.render('weather', {
-        pageTitle: 'Weather',
-        pageContent: 'This is some content for the weather page'
+        pageTitle: 'Weather'
     });
 });
 
